@@ -1,0 +1,51 @@
+---
+title: "Cell type identification"
+output: github_document
+---
+
+Created by: Philip Lijnzaad
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(fig.width=9, fig.height=6) 
+```
+
+# Overview
+
+asdfadsfasdf
+
+# Datasets
+
+asdfasdf
+
+asdfasdf
+
+
+```{r packages}
+
+suppressMessages(require(Seurat))
+suppressMessages(require(CHETAH))
+suppressMessages(require(Matrix))
+suppressMessages(require(SingleR))
+suppressMessages(require(cowplot))
+
+```
+
+Clearly, most of the cells are Macrophages. 
+
+We now follow the 'standard' [Seurat workflow](https://satijalab.org/seurat/essential_commands.html#seurat-standard-worflow) to prepare the data. 
+
+```{r image_example, warning=FALSE}
+
+plot(x=rnorm(1000), y=rnorm(1000),main='test')
+
+```
+
+qwerqwer
+
+
+### Session info
+
+```{r sessioninfo}
+sessionInfo()
+```

@@ -1,1 +1,13 @@
+title: Single RNA-seq data analysis with R
+description: HAHA
 theme: jekyll-theme-leap-day
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+  - LICENSE.md
+  - COPYING.md
+  - CONTRIBUTING.md
